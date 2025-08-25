@@ -1,4 +1,25 @@
+# Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
 .env
-*.pkl
+*.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
